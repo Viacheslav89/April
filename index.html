@@ -19,34 +19,34 @@
             const result = sumKm + sumPharmacy;
             let sumDriver;
             
-            if (km <= 320) {
+            if (km < 319) {
                 sumDriver = 2000;
-            } else if (km > 320 && km < 420) {
+            } else if (km > 321 && km < 419) {
                 sumDriver = 2200;
-            } else if (km > 421 && km < 500) {
+            } else if (km > 419 && km < 499) {
                 sumDriver = 2400;
-            } else if (km > 501 && km < 550) {
+            } else if (km > 499 && km < 549) {
                 sumDriver = 2500;
-            } else if (km > 551 && km < 600) {
+            } else if (km > 549 && km < 599) {
                 sumDriver = 2700;
-            } else if (km > 601 && km < 670) {
+            } else if (km > 599 && km < 669) {
                 sumDriver = 2800;
-            } else if (km > 671 && km < 750) {
+            } else if (km > 669 && km < 749) {
                 sumDriver = 3000;
-            } else if (km > 751 && km < 820) {
+            } else if (km > 749 && km < 819) {
                 sumDriver = 3200;
-            } else if (km > 821 && km < 920) {
+            } else if (km > 819 && km < 919) {
                 sumDriver = 3400;
-            } else if (km > 921 && km < 1000) {
+            } else if (km > 919 && km < 999) {
                 sumDriver = 3500;
-            } else if (km >= 1001) {
+            } else if (km > 1000) {
                 sumDriver = km * 3.5;
             }
-            alert(`${result}р - общая сумма\n${sumDriver}р - зп водителя`);
+            alert(`${result}р - общая сумма \n${sumDriver}р - зп водителя`);
         }
 
         sumTripApril(kmPr, pharmacyPr);
-        
+
     </script>
 </body>
 </html>
